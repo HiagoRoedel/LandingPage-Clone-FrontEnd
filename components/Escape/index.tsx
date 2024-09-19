@@ -10,7 +10,7 @@ export default function Escape() {
                         alt="home-benefit-1"
                         width={560}
                         height={515}
-                        className=""
+                        className="max-w-full h-auto"
                     />
                 </div>
                 <div className="flex flex-col justify-center items-start p-6">
@@ -19,10 +19,10 @@ export default function Escape() {
                             &#128127;
                         </div>
                     </div>
-                    <div className="title text-5xl text-black mb-8">
+                    <div className="title text-3xl md:text-5xl text-black mb-4">
                         Escape tutorial hell
                     </div>
-                    <div className="subtitle text-gray-600 text-xl">
+                    <div className="subtitle text-gray-600 text-lg md:text-xl">
                         Add projects to your learning journey and put your knowledge to the test. The real learning happens when you start solving real-world problems yourself.
                     </div>
                 </div>

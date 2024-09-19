@@ -10,10 +10,10 @@ export default function Portfolio() {
                             &#129321;
                         </div>
                     </div>
-                    <h1 className="text-4xl md:text-5xl font-bold text-black mb-6">
+                    <h1 className="text-3xl md:text-4xl font-bold text-black mb-4">
                         Build portfolio-worthy projects
                     </h1>
-                    <p className="text-base md:text-xl text-gray-600">
+                    <p className="text-base md:text-lg text-gray-600">
                         Design is hard. We take care of the project ideas and design so you can focus on the coding. You’ll end up with an incredible portfolio of stunning projects!
                     </p>
                 </div>
@@ -23,7 +23,7 @@ export default function Portfolio() {
                         alt="home-benefit-2"
                         width={560}
                         height={595}
-
+                        className="max-w-full h-auto"
                     />
                 </div>
             </div>
