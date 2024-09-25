@@ -6,10 +6,10 @@ export default function Questions() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div className="shadow-xl flex flex-col items-center mb-12 p-6 rounded-sm">
                     <div className="w-full max-w-sm flex flex-col items-center">
-                        <div className="mt-3 text-[48px] md:text-[64px] text-pink-100">
+                        <div className="mt-3 text-[148px] md:text-[164px] text-pink-100">
                             &quot;
                         </div>
-                        <div className="text-black text-center text-lg md:text-xl mt-4">
+                        <div className="text-black text-center text-lg md:text-xl">
                             <span>I highly recommend Frontend Mentor. Skip the search for project ideas and dive into ready-made challenges that help you level up as a developer.</span>
                         </div>
                         <div className="mt-3">
@@ -30,10 +30,10 @@ export default function Questions() {
                 
                 <div className="shadow-xl flex flex-col items-center mb-12 p-6 rounded-sm">
                     <div className="w-full max-w-sm flex flex-col items-center">
-                        <div className="mt-3 text-[48px] md:text-[64px] text-pink-100">
+                        <div className="mt-3 text-[148px] md:text-[164px] text-pink-100">
                             &quot;
                         </div>
-                        <div className="text-black text-center text-lg md:text-xl mt-4">
+                        <div className="text-black text-center text-lg md:text-xl">
                             <span>Frontend Mentor is a win-win. You can sharpen your skills building websites and add finished projects to your portfolio to help land a job!</span>
                         </div>
                         <div className="mt-3">
