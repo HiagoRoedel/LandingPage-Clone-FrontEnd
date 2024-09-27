@@ -7,19 +7,17 @@ export default function Works() {
     const [isImageLoaded, setIsImageLoaded] = useState(true)
 
     const buttonStyles = (selected: boolean) =>
-        `mb-4 flex flex-col h-auto w-full items-start justify-start rounded-lg border px-4 py-4 text-left font-bold transition-all duration-300 ${
-            selected ? 'bg-blue-600 text-white' : 'bg-white text-black border border-gray-300'
+        `mb-4 flex flex-col h-auto w-full items-start justify-start rounded-lg border px-4 py-4 text-left font-bold transition-all duration-300 ${selected ? 'bg-blue-600 text-white' : 'bg-white text-black border border-gray-300'
         } hover:bg-blue-700 hover:text-white`
 
     const circleStyles = (selected: boolean) =>
-        `flex items-center justify-center w-8 h-8 rounded-full ${
-            selected ? 'bg-gray-100 text-black' : 'bg-[#6ABECD] text-white'
+        `flex items-center justify-center w-8 h-8 rounded-full ${selected ? 'bg-gray-100 text-black' : 'bg-[#6ABECD] text-white'
         }`
 
     const getDescription = (question: string) => {
         switch (question) {
             case 'dicas':
-                return 'Browse our collection of professionally designed projects. Pick one that suits the level you’re currently at.'
+                return 'Browse our  collection of professionally designed projects. Pick one that suits the level you’re currently at.'
             case 'orientacoes':
                 return 'Start coding by following the project guidelines. Use your skills to solve the challenges.'
             case 'multipla':
