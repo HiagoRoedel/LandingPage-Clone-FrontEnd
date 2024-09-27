@@ -17,7 +17,9 @@ export default function Works() {
     const getDescription = (question: string) => {
         switch (question) {
             case 'dicas':
+
                 return 'Browse our  collection of professionally   designed projects. Pick one that suits the level you’re currently at.'
+
             case 'orientacoes':
                 return 'Start coding by following the project guidelines. Use your skills to solve the challenges.'
             case 'multipla':
